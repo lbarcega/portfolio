@@ -7,10 +7,11 @@
     </head>
     <body>
         <div class="container">
-            <div class="header">
-                <img class="bg-image" src="images/logo-bg.png" alt="the boy">
-                <span>WAG KANG BOBO</span>
-            </div>
+            <section id="home">
+                <div class="header">
+                    <span>palitan mo to</span>
+                </div>
+            </section>
                 <div class="navbar">
                     <a class="dropbtn nav-item" onclick="toggleMenu()">☰</a>
                     <div class="menu">
@@ -21,6 +22,7 @@
                     </div>
                 </div>
                 <section id="about">
+                    <div class="about-bg"></div>
                     <div class="intro-container">
                         <div class="intro">
                             <center><h1>PROTESDG</h1></center>
@@ -32,10 +34,11 @@
                                 <a href="#home" class="btn">linkedin</a>
                             </div>
                         </div>
+                        
                     </div>
                 </section>
                 <section id="projects">
-                    <div class="flex-container w3-display-container">
+                    <div class="flex-container">
                         <div class="flex-item mySlides">
                             <span class="card-title">Hello, World!</span><hr>
                             <img class="flex-img" src="images/hello-world.png">
@@ -47,13 +50,23 @@
                         </div>
                         <div class="flex-item mySlides">
                             <span class="card-title">Basic Inputs</span><hr>
-                            <img class="flex-img" src="images/Untitled6.png">
+                            <center><img class="flex-img" src="images/Untitled6.png"></center>
                             <p>Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. 
                                 It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… 
                                 He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. 
                                 The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… 
                                 the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, 
                                 then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.
+                                </p>
+                        </div>
+                        <div class="flex-item mySlides">
+                            <span class="card-title">Personal Website</span><hr>
+                            <img class="flex-img" src="images/personal.png">
+                            <p>A personal website project for a WebDev subject.
+                                <div class="card-links">
+                                    <a href="https://github.com/lbarcega/lab3" class="btn">Github</a>
+                                    <a href="https://apcwebprog.csf.ph/~lbarcega/lab3/ci4/public/index" class="btn">Website</a>
+                                </div>
                                 </p>
                         </div>
                         <div class="flex-item mySlides">
@@ -65,21 +78,10 @@
                                 then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.
                                 </p>
                         </div>
-                        <div class="flex-item mySlides">
-                            <p>Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. 
-                                It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… 
-                                He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. 
-                                The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… 
-                                the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, 
-                                then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.
-                                </p>
-                        </div>
-                        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-                            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-                            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-                            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-                            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                        <div class="row">
+                            <div class="btn" onclick="plusDivs(-1)">&#10094;</div>
+                            <div class="row" id="slide-buttons"></div>
+                            <div class="btn" onclick="plusDivs(1)">&#10095;</div>
                         </div>
                     </div>
                 </section>

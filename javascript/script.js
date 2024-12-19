@@ -28,7 +28,6 @@ function showDivs(n) {
     dots[i].className = dots[i].className.replace(" w3-white", "");
   }
   x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
 }
 
 function validateForm() {
@@ -46,9 +45,17 @@ function validateForm() {
     }
 }
 
-function formWarning (){
-    const form = document.getElementById("contact-me-form");
-    const warning = document.getElementById("form-warning");
-
-    warning.textContent = "BOBO";
+function slideButtons(){
+  let x = document.querySelectorAll(".mySlides");
+  let slideButtons = document.getElementById("slide-buttons");
+  for (let i = 1; i < x.length + 1; i++){
+    const button = document.createElement('button');
+    // Set the button's text (for example, based on the index or element content)
+    button.textContent = `${i}`;
+    button.className = "btn";
+    button.addEventListener("click", () => currentDiv(i));
+    slideButtons.appendChild(button);
+  }
 }
+
+slideButtons();
