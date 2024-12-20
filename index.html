@@ -8,8 +8,10 @@
     <body>
         <div class="container">
             <section id="home">
+                <div class="hero-text">
+                    <h1>Hi, I'm Leila Angela Arcega</h1>
+                </div>
                 <div class="header">
-                    <span>palitan mo to</span>
                 </div>
             </section>
                 <div class="navbar">
@@ -22,16 +24,24 @@
                     </div>
                 </div>
                 <section id="about">
-                    <div class="about-bg"></div>
                     <div class="intro-container">
                         <div class="intro">
-                            <center><h1>PROTESDG</h1></center>
-                            <p>intro.
-                                Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.
+                            <center><h1>About Me</h1></center>
+                            <hr>
+                            <p>
+                                I'm a 4th-year Computer Science student at Asia Pacific College, specializing in Software Systems.
+                                Throughout my academic journey, I have developed a solid foundation in computer science principles, with a particular focus on web development.
+                                I am also familiar with machine learning principles, and I am eager to explore how data-driven approaches can enhance software systems.
+                                Beyond programming, I have a passion for video games, which helps me improve my problem-solving and strategic thinking skills. <br><br>
+                                When I'm not coding or gaming, I enjoy reading—particularly books on technology, philosophy, and fiction.
+                                I also like to unwind by playing musical instruments, which provides a creative and relaxing balance to my routine.<br><br>
+                                As I continue to grow in my field, I look forward to applying my skills in real-world projects and expanding my knowledge of emerging technologies.<br>
+                                <hr>
+                                <center>Feel free to check out my work and connect with me:</center>
                             </p>
                             <div class="card-links">
-                                <a href="#home" class="btn">idk github</a>
-                                <a href="#home" class="btn">linkedin</a>
+                                <a href="https://github.com/lbarcega" class="btn">Github</a>
+                                <a href="https://www.linkedin.com/in/leila-arcega-1a25961b5/" class="btn">LinkedIn</a>
                             </div>
                         </div>
                         
@@ -39,50 +49,98 @@
                 </section>
                 <section id="projects">
                     <div class="flex-container">
-                        <div class="flex-item mySlides">
-                            <span class="card-title">Hello, World!</span><hr>
-                            <img class="flex-img" src="images/hello-world.png">
-                            <p>The rite of passage for every programmer—a farewell to the familiar and a welcome to a new world of coding.
+                        <h2 class="title-card">Projects</h2>
+                        <div class="flex-item">
+                            <div class="mySlides">
+                                <center><img id="img1" class="flex-img" src="images/hello-world.png"></center>
+                                <div class="card-container">
+                                <span class="card-title">Hello, World!</span><hr>
+                                <p>The rite of passage for every programmer—a farewell to the familiar and a welcome to a new world of coding.</p>
                                 <div class="card-links">
-                                    <a href="#" class="btn">idk github</a>
+                                    <a href="https://github.com/lbarcega/internship/blob/main/877_hello_world.py" class="btn">Github</a>
                                 </div>
-                                </p>
-                        </div>
-                        <div class="flex-item mySlides">
-                            <span class="card-title">Basic Inputs</span><hr>
-                            <center><img class="flex-img" src="images/Untitled6.png"></center>
-                            <p>Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. 
-                                It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… 
-                                He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. 
-                                The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… 
-                                the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, 
-                                then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.
-                                </p>
-                        </div>
-                        <div class="flex-item mySlides">
-                            <span class="card-title">Personal Website</span><hr>
-                            <img class="flex-img" src="images/personal.png">
-                            <p>A personal website project for a WebDev subject.
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <center><img id="img2" class="flex-img" src="images/basic-input.png"></center>
+                                <span class="card-title">Basic Inputs</span><hr>
+                                <p>A program that prompts the user for their name and age then outputs a simple greeting.</p>
                                 <div class="card-links">
-                                    <a href="https://github.com/lbarcega/lab3" class="btn">Github</a>
-                                    <a href="https://apcwebprog.csf.ph/~lbarcega/lab3/ci4/public/index" class="btn">Website</a>
+                                    <a href="https://github.com/lbarcega/internship/blob/main/879_basic_input.py#L13" class="btn">Github</a>
                                 </div>
-                                </p>
+                            </div>
+                            <div class="mySlides">
+                                <center><img id="img3" class="flex-img" src="images/calculator.png"></center>
+                                <span class="card-title">Calculator</span><hr>
+                                <p>A simple calculator program that prompts the user for two numbers and their choice of operation.</p>
+                                <div class="card-links">
+                                    <a href="https://github.com/lbarcega/internship/blob/main/879_calculator.py" class="btn">Github</a>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <center><img id="img5" class="flex-img" src="images/address.png"></center>
+                                <span class="card-title">Address Book</span><hr>
+                                <p>A simple address book that allows the user to view, search, add, edit, and delete contacts.</p>
+                                <div class="card-links">
+                                    <a href="https://github.com/lbarcega/internship/blob/main/883_address_book.py" class="btn">Github</a>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <center><img id="img6" class="flex-img" src="images/data-structures.png"></center>
+                                <span class="card-title">Stacks and Queues</span><hr>
+                                <p>A practice on data structures, particularly stacks and queues.</p>
+                                <div class="card-links">
+                                    <a href="https://github.com/lbarcega/internship/blob/main/882_data_structures.py" class="btn">Github</a>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <center><img id="img7" class="flex-img" src="images/graph.png"></center>
+                                <span class="card-title">Sorting Algorithm Comparison</span><hr>
+                                <p>A comparison on the efficiency of bubble, insertion, selection, and merge sort in the form of graphs.</p>
+                                <div class="card-links">
+                                    <a href="https://github.com/lbarcega/internship/blob/main/882_sorting_algorithms.py" class="btn">Github</a>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <center><img id="img8" class="flex-img" src="images/cloud.png"></center>
+                                <span class="card-title">Cloud Application</span><hr>
+                                <p>A program that cleans and merges four files, exports the data to an excel file, and uploads it into an Azure blob storage container.</p>
+                                <div class="card-links">
+                                    <a href="https://github.com/lbarcega/internship/tree/main/data%20cleaning" class="btn">Github</a>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <center><img id="img9" class="flex-img" src="images/personal.png"></center>
+                                <span class="card-title">Personal Website</span><hr>
+                                <p>A personal website project made for a web-programming subject.</p>
+                                    <div class="card-links">
+                                        <a href="https://github.com/lbarcega/lab3" class="btn">Github</a>
+                                        <a href="https://apcwebprog.csf.ph/~lbarcega/lab3/ci4/public/index" class="btn">Website</a>
+                                    </div>
+                            </div>
+                            <div class="mySlides">
+                                <center><img class="flex-img" id="img10" src="images/ramkolek.png"></center>
+                                <span class="card-title">Ramkolek</span><hr>
+                                <p>A document-managagement and project submission system created for project-based learning subjects in Asia Pacific College.</p>
+                                    <div class="card-links">
+                                        <a href="https://github.com/APC-SoCIT/APC_2023_2024_T2_PROJECT_RAM_KOLEK" class="btn">Github</a>
+                                    </div>
+                            </div>
+                            <div class="mySlides">
+                                <center><img class="flex-img" id="img11" src="images/tino.png"></center>
+                                <span class="card-title">Tino Suits MPP System</span><hr>
+                                <p>The Master Production Planning (MPP) system was made to transform the production workflow for Tiño Suits by providing a comprehensive, integrated platform that addresses current inefficiencies. By consolidating job orders, client data, and scheduling into a single system, the MPP will facilitate better organization and management of production processes.</p>
+                                    <div class="card-links">
+                                        <a href="https://github.com/APC-SoCIT/APC_2024_2025_T1_Tino-Master-Production-Planning" class="btn">Github</a>
+                                    </div>
+                            </div>
+                            <div class="row project-buttons">
+                                <div class="btn" onclick="plusDivs(-1)">&#10094;</div>
+                                <div class="row" id="slide-buttons"></div>
+                                <div class="btn" onclick="plusDivs(1)">&#10095;</div>
+                            </div>
                         </div>
-                        <div class="flex-item mySlides">
-                            <p>Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. 
-                                It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… 
-                                He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. 
-                                The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… 
-                                the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, 
-                                then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself.
-                                </p>
-                        </div>
-                        <div class="row">
-                            <div class="btn" onclick="plusDivs(-1)">&#10094;</div>
-                            <div class="row" id="slide-buttons"></div>
-                            <div class="btn" onclick="plusDivs(1)">&#10095;</div>
-                        </div>
+
                     </div>
                 </section>
                 <section id="contact">
@@ -115,6 +173,11 @@
                 </div>
             </section>
         </div>
+
+<div id="imageModal" class="modal">
+    <span id="closeModal" class="close">&times;</span>
+    <img id="modalImage" class="modal-content" src="">
+</div>
     </body>
 </html>
 <script src='javascript/script.js'></script>
